@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Membuat Gambar di HTML</title>
+</head>
+
+<body style="background-image: url(https://www.hollerings.com/wp-content/uploads/2019/09/national-coding-week.png)">
+    <h1>Menampilkan ganbar di HTML</h1>
+    <p>Ini adalah foto dari internet</p>
+    <p>
+        <img src="https://img.theweek.in/content/dam/week/news/sci-tech/images/2019/10/9/live-coding.jpg" />
+    </p>
+    <P>Mencoba atribut untuk tag img</P>
+
+    <p>
+        <img src="" alt="HTML" />
+        <!-- atribut alt untuk teks alternatif untk gambar -->
+    </p>
+    <p>
+        <img src="https://img.theweek.in/content/dam/week/news/sci-tech/images/2019/10/9/live-coding.jpg" width="200"
+            height="150" alt="ini dari internet web dev" />
+        <img src="https://img.theweek.in/content/dam/week/news/sci-tech/images/2019/10/9/live-coding.jpg" width="250"
+            height="200" alt="ini dari internet" />
+        <img src="https://img.theweek.in/content/dam/week/news/sci-tech/images/2019/10/9/live-coding.jpg" width="300"
+            height="250" alt="ini dari internet" />
+        <!-- atribut width dan height untuk mengatur ukuran dari gambar dengan pixel(px) jadi 200px -->
+
+    </p>
+    <p>
+        <img src="https://www.petanikode.com/img/about-section.svg" style="width: 200px;border: 3px seagreen;" />
+        <img src="https://www.petanikode.com/img/about-section.svg" style="width: 150px;border-radius: 10px;" />
+        <img src="https://img.theweek.in/content/dam/week/news/sci-tech/images/2019/10/9/live-coding.jpg"
+            style="width: 100px;height: 100px; border-radius: 100%;" />
+        <!-- atribut style biasa di css untuk menambah sebuah elemen pada gambar -->
+    </p>
+    <h2>Membuat background dengan menggunakan gambar</h2>
+    <p>
+        halaman ini menggunakan gambar sebagai background di css di bahas
+    </p>
+    <h3>Gambar sebagai link</h3>
+    <p>
+        <a href="https://youtu.be/bmVKaAV_7-A">
+            <figure>
+                <img src="https://www.petanikode.com/img/about-section.svg" width="150" />
+                <figcaption>html css java script</figcaption>
+            </figure>
+        </a>
+    </p>
+    <!-- membuat link di gambar menggunakan tag a lalu tag img -->
+
+    <p>
+        <picture>
+            <source media="(min-width: 650px)" srcset="https://post.greatist.com/wp-content/uploads/2020/07/nervous2-30.jpg">
+                <source media="(min-width: 450px)" srcset="https://post.greatist.com/wp-content/uploads/2020/07/nervous2-30.jpg">
+                <img src="https://post.greatist.com/wp-content/uploads/2020/07/nervous2-30.jpg">
+        </picture>
+    </p>
+<!-- tag picture  ukuran layar mana yang akan di tampilkan jika display pada saat membuka web -->
+</body>
+
+</html>
